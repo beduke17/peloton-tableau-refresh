@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.bdukleth.instructor-spotlight-v4.dashboard" extension-version="1.0.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Instructor Spotlight</description>
+    <author name="bdukleth" email="dev@example.com"
+            organization="bdukleth" website="https://example.com"/>
+    <min-api-version>1.1</min-api-version>
+    <source-location>
+      <url>ext/index.html</url>
+    </source-location>
+    <icon></icon>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Instructor Spotlight</text>
+    </resource>
+  </resources>
+</manifest>
